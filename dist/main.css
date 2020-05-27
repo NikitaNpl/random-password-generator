@@ -42,9 +42,9 @@ button {
     transition: all 150ms ease-in-out;
     transform: translateY(200%);
     opacity: 0; }
-    .result__info .right {
+    .result__info.right {
       right: 8px; }
-    .result__info .left {
+    .result__info.left {
       left: 8px; }
   .result__viewbox {
     width: 100%;
@@ -60,7 +60,10 @@ button {
     left: var(--x);
     width: 38px;
     height: 38px;
-    background: #fff;
+    background-image: url(99599bad3068dbe3b09c7be70af76bd1.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-position: center;
     border-radius: 50px;
     opacity: 0;
     transform: translate(-50%, -50%) scale(0);
